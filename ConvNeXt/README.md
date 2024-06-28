@@ -3,7 +3,7 @@
 
 ## Setup
 
-You can check the environment in Dockerfile.
+You can check the environment in [Dockerfile](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/blob/main/ConvNeXt/Dockerfile).
 
 To use Focal loss, focal_loss_torch must be installed.
 ```
