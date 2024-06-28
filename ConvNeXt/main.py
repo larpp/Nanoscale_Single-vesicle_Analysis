@@ -209,8 +209,8 @@ def get_args_parser():
 
     parser.add_argument('--results_dir')
 
-    parser.add_argument('--alpha1', type=float, default=0.426)
-    parser.add_argument('--alpha2', type=float, default=0.574)
+    parser.add_argument('--alpha1', type=float, default=0.45)
+    parser.add_argument('--alpha2', type=float, default=0.55)
 
     return parser
 
