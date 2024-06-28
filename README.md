@@ -14,11 +14,11 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 |   |Accuracy   |Precision   |Recall   |F1-score   |
 |:---:|:---:|:---:|:---:|:---:|
-|K-means   |   |   |   |   |
-|DBSCAN   |   |   |   |   |
-|SR-Tesseler   |   |   |   |   |
-|YOLO   |   |   |   |   |
-|Faster R-CNN   |   |   |   |   |
-|DETR   |   |   |   |   |
-|Deformable DETR   |   |   |   |   |
+|K-means   |27%   |27%   |98%   |43%   |
+|DBSCAN   |82%   |85%   |96%   |90%   |
+|SR-Tesseler   |50%   |97%   |50%   |66%   |
+|YOLO   |74%   |81%   |89%   |85%   |
+|Faster R-CNN   |84%   |90%   |93%   |91%   |
+|DETR   |73%   |76%   |96%   |85%   |
+|Deformable DETR   |85%   |96%   |89%   |92%   |
 
