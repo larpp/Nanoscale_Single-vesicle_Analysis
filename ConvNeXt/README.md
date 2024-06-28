@@ -49,3 +49,43 @@ python main.py \
 --nb_classes 2
 ```
 
+## Evaluation
+
+```
+python -m torch.distributed.launch --nproc_per_node=2 main.py \
+--model convnext_small --eval true \
+--resume  out/checkpoint-best.pth \
+--input_size 224 --drop_path 0.2 \
+--batch_size 32 \
+--data_path dest \
+--nb_classes 2
+```
+
+If you use a single GPU, use the following command.
+```
+python main.py \
+--model convnext_small --eval true \
+--resume  out/checkpoint-best.pth \
+--input_size 224 --drop_path 0.2 \
+--batch_size 32 \
+--data_path dest \
+--nb_classes 2
+```
+
+## Inference
+
+```
+python main.py \
+--model convnext_small \
+--inference True \
+--resume  out/checkpoint-best.pth \
+--input_size 224 --drop_path 0.2 \
+--batch_size 1 \
+--data_path <inference data path> \
+--csv_path <csv path> \
+--nb_classes 2 \
+--results_dir <results path>
+```
+
+# Referece
+https://github.com/facebookresearch/ConvNeXt?tab=readme-ov-file
