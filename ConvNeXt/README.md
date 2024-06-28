@@ -21,3 +21,6 @@ dest/
       img6.png
 ```
 
+## Training
+
+The pre-trained models can be downloaded from the [official ConvNeXt GitHub](https://github.com/facebookresearch/ConvNeXt?tab=readme-ov-file).
