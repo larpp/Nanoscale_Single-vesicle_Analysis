@@ -2,9 +2,7 @@
 
 ## Setup
 
-```
-docker build -t <image name> .
-```
+You can check the environment in Dockerfile.
 
 To use Focal loss, focal_loss_torch must be installed.
 ```
