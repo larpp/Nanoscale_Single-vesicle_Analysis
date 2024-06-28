@@ -12,3 +12,14 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 ![image](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/assets/87048326/bfddb91c-caef-4e29-89c2-80ce32f4a7a4)
 
+|   |Accuracy   |Precision   |Recall   |F1-score   |
+|:---:|:---:|:---:|:---:|:---:|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
