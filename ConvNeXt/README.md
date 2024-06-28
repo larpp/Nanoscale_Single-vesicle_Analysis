@@ -1,5 +1,12 @@
 # Command
 
+## Setup
+
+To use Focal loss, focal_loss_torch must be installed.
+```
+pip install focal_loss_torch
+```
+
 ## Dataset
 
 ```
