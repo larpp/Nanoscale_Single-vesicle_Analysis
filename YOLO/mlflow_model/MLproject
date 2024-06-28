@@ -1,0 +1,19 @@
+name: yolo
+
+docker_env:
+   image: mlflow_train
+   volumes: ["/home/inhamath/Clustering/data:/home/user/project/data"]
+
+entry_points:
+  main:
+    parameters:
+      batch: {type: float, default: 10}
+      conf: {type: str, default: "configs/yolov6n_finetune.py"}
+      data: {type: str, default: data/dataset.yaml}
+      eval-interval: {type: float, default: 5}
+      workers: {type: float, default: 0}
+      device: {type: float, default: 0}
+      epochs: {type: float, default: 200}
+    command: "python tools/train.py \
+    --batch {batch} --conf {conf} --data {data} --fuse_ab --device {device} \
+    --eval-interval {eval-interval} --workers {workers} --epochs {epochs}" 

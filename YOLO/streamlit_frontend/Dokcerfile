@@ -1,0 +1,22 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    software-properties-common \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY ./streamlit_frontend/ streamlit_frontend/
+COPY ./data/ data/
+
+RUN pip install --upgrade pip && \
+ pip install -r streamlit_frontend/requirment.txt
+
+RUN apt-get -y update && \
+  apt-get -y install libgl1-mesa-glx && \
+  apt-get -y install libglib2.0-0
+
+CMD [ "/bin/bash" ]
