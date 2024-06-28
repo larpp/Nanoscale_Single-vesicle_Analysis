@@ -35,3 +35,17 @@ python -m torch.distributed.launch --nproc_per_node=2 main.py \
 --resume convnext_small_1k_224_ema.pth \
 --nb_classes 2
 ```
+
+If you use a single GPU, use the following command.
+
+```
+python main.py \
+--model convnext_small --drop_path 0.1 \
+--batch_size 32 --lr 4e-3 --update_freq 4 \
+--model_ema true --model_ema_eval true \
+--data_path dest \
+--output_dir out \
+--resume convnext_small_1k_224_ema.pth \
+--nb_classes 2
+```
+
