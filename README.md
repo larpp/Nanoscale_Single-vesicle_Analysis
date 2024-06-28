@@ -4,5 +4,9 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 ## Results
 
+### Detection
+
 ![image](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/assets/87048326/af333f46-8963-4934-aac8-3662780df2e7)
+
+### Classification
 
