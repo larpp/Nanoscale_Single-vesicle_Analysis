@@ -8,7 +8,7 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 [ConvNeXt](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/tree/main/ConvNeXt)
 
-[MMDetection](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/tree/main/mmdetection) and [MMDetection inference]()
+[MMDetection](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/tree/main/mmdetection) and [MMDetection inference](https://github.com/larpp/MMDetection_Inference)
 
 ## Results
 
