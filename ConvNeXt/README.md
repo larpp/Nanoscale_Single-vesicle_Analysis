@@ -97,5 +97,5 @@ python main.py \
 --results_dir <results path>
 ```
 
-# Referece
+# Acknowledgement
 https://github.com/facebookresearch/ConvNeXt?tab=readme-ov-file
