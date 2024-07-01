@@ -98,4 +98,4 @@ python main.py \
 ```
 
 # Acknowledgement
-[Official ConvNeXt Github](https://github.com/facebookresearch/ConvNeXt?tab=readme-ov-file)
+Official [ConvNeXt](https://github.com/facebookresearch/ConvNeXt?tab=readme-ov-file) Github 
