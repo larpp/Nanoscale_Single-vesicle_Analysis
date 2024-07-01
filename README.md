@@ -6,6 +6,8 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 [YOLOv6](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/tree/main/YOLO)
 
+[ConvNeXt](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/tree/main/ConvNeXt)
+
 ## Results
 
 ### Detection
