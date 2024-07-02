@@ -40,7 +40,7 @@ def main():
     for img in image_li:
         image_name = img.split('/')[-1][:-4]
 
-        outputs = inferencer(img, out_dir=results_path, pred_score_thr=pred_score_thr, no_save_vis=True)
+        outputs = inferencer(img, out_dir=results_path, pred_score_thr=pred_score_thr)
         scores = outputs['predictions'][0]['scores']
         boxes = outputs['predictions'][0]['bboxes']
         labels = outputs['predictions'][0]['labels']
