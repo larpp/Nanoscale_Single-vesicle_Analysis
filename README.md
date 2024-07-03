@@ -11,22 +11,3 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 [MMDetection](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/tree/main/mmdetection) and [MMDetection inference](https://github.com/larpp/MMDetection_Inference)
 
 ## Results
-
-### Detection
-
-![image](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/assets/87048326/af333f46-8963-4934-aac8-3662780df2e7)
-
-### Classification
-
-![image](https://github.com/larpp/Nanoscale_Single-vesicle_Analysis/assets/87048326/bfddb91c-caef-4e29-89c2-80ce32f4a7a4)
-
-|   |Accuracy   |Precision   |Recall   |F1-score   |
-|:---:|:---:|:---:|:---:|:---:|
-|K-means   |27%   |27%   |98%   |43%   |
-|DBSCAN   |82%   |85%   |96%   |90%   |
-|SR-Tesseler   |50%   |97%   |50%   |66%   |
-|YOLO   |74%   |81%   |89%   |85%   |
-|Faster R-CNN   |84%   |90%   |93%   |91%   |
-|DETR   |73%   |76%   |96%   |85%   |
-|Deformable DETR   |85%   |96%   |89%   |92%   |
-
