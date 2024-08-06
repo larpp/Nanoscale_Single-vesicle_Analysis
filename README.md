@@ -14,9 +14,7 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 ### Detection
 
-<img src=https://github.com/user-attachments/assets/47b2dba9-068e-4417-826f-3f6803e1730e width="300" height="400"/>
-
-![스크린샷 2024-08-06 122854](https://github.com/user-attachments/assets/47b2dba9-068e-4417-826f-3f6803e1730e)
+<img src=https://github.com/user-attachments/assets/47b2dba9-068e-4417-826f-3f6803e1730e width="450" height="600"/>
 
 ### Classification
 
