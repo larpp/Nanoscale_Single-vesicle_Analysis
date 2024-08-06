@@ -16,7 +16,7 @@ The analysis of membrane vesicles at the nanoscale level is crucial for advancin
 
 <img src=https://github.com/user-attachments/assets/47b2dba9-068e-4417-826f-3f6803e1730e width="500" height="667"/>
 
-### Classification
+### Classification - ConvNeXt
 
 <img src=https://github.com/user-attachments/assets/21715ac9-47de-4ad8-9a95-e861436bcbb0 width="600" height="300"/>
 
